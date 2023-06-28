@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "start": "nodemon backend/server.js"
-  },
+   "scripts": {
+            "start": "node backend/server.js",
+            "dev": "nodemon backend/server.js"
+         },
   "author": "Parveen Prajapati",
   "license": "ISC",
   "dependencies": {
